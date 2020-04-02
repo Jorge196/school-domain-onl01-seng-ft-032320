@@ -10,12 +10,12 @@ class School
   end
 
   def roster=(roster)
-    @roster = roster 
-  end 
+    @roster = roster
+  end
 
   def rpster
-    @roster 
-  end 
+    @roster
+  end
 
   def student
     @student
