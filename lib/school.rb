@@ -15,6 +15,7 @@ class School
     # else
     #   @roster[grade] << name
     # end
+    def sort_student 
 
   end
 
