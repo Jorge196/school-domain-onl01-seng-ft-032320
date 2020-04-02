@@ -13,7 +13,7 @@ class School
     @roster = roster
   end
 
-  def rpster
+  def roster
     @roster
   end
 
