@@ -4,11 +4,11 @@ class School
 
   def initialize(student)
     @student = student
-    @roster = []
+    @roster = {}
   end
 
   def add_student(name, num)
-    
+    if @roster 
   end
 
 end
