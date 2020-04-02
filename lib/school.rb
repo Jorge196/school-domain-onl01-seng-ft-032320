@@ -10,15 +10,15 @@ class School
   def add_student(name, grade)
     @roster[grade] ||= []
     @roster[grade] << name
-    # if !@roster[grade]
-    #   @roster[grade] = []
-    # else
-    #   @roster[grade] << name
-    # end
-    def grade(number)
-      
-
-
   end
 
+  def grade(number)
+    @roster[number]
+  end
+
+  def sort
+    @roster.each do |grade, name|
+      @roster[grade] = name.sort
+    end
+  end
 end
