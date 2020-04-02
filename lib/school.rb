@@ -9,6 +9,14 @@ class School
     @student = student
   end
 
+  def roster=(roster)
+    @roster = roster 
+  end 
+
+  def rpster
+    @roster 
+  end 
+
   def student
     @student
   end
