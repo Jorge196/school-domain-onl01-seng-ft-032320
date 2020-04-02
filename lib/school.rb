@@ -8,7 +8,10 @@ class School
   end
 
   def add_student(name, num)
-    if @roster 
+    if @roster
   end
 
 end
+
+# array = [john, mary, paul]
+# array
